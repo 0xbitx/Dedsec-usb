@@ -1,3 +1,8 @@
+  <p align="center">
+    <img alt="DEDSEC-USB" src="https://github.com/0xbitx/dedsec_catcher/blob/main/img/logo.png" style="max-width:100%;max-height:100%;" />
+  </p>
+
+
 # Dedsec-usb
 
 The dedsec-usb looks like any other USB flash drive, but when you insert the dedsec-usb, the computer perceives a keyboard, and it allows that "keyboard" to enter a host of preset keystrokes. Theoretically, this tool is for penetration testing. Security experts can use dedsec-usb to test the resiliency of their computers systems, But hackers can also use the dedsec-usb for keystroke injection attacks.
@@ -6,9 +11,9 @@ The dedsec-usb looks like any other USB flash drive, but when you insert the ded
 
 Computers have certain built-in safeguards against flash drives, and they don’t automatically run programs from these devices. In contrast, most computers intuitively trust keyboards. When they receive a keystroke from a keyboard, they assume that a trustworthy user is putting in those keystrokes and they follow the directions.
 
-In light of that, if you put in a rubber ducky into a computer, the rubber ducky can tell the computer to take all kinds of actions including the following:
+In light of that, if you put in a dedsec-usb into a computer, the dedsec-usb can tell the computer to take all kinds of actions including the following:
 
-  -  Go to a certain website and download malware or ransomware.
+  -   Go to a certain website and download malware or ransomware.
   -   Pull up a website with code that puts a “backdoor” into your system, giving hackers the entrance they need to manipulate accounts or commit other types of fraud.
   -   Launch an app or a reverse-shell program, allowing the hacker to track the keystrokes you enter so they can steal usernames, passwords, and other critical details.
   -   Delete, add, or steal files.
@@ -18,8 +23,10 @@ This list is just the tip of the iceberg. The potential of these devices is real
 
 
 ## requirements 
-- arduino pro micro
-- microsd module
+- [arduino pro micro](https://lazada.com)
+- [microsd module](https://lazada.com)
+
+### arduino to microsd module connection
 ```
 Arduino ||| microSD module
 
@@ -35,8 +42,13 @@ GND  --->   GND
 
 D4   --->   CS
 ```
-- 
-## code
+
+
+
+
+
+
+## dip switch code
 - 0000 - reverse shell 
 - 0001 - dump password
 - 0011 - dump sam file
