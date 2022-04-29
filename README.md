@@ -29,10 +29,10 @@ This list is just the tip of the iceberg. The potential of these devices is real
 
 ### Arduino to MicroSD module connection
 ```
-Arduino   |   microSD module  |  Dip Switch 
+Arduino   |   microSD module  |  Dip switch
 
-VCC     --->    VCC               
-                                  
+VCC     --->    VCC              4 up pins (ON DP)     --->  GND in arduino
+                                 4 down pins (1 2 3 4) --->  6 7 8 9 pin in arduino 
 D15     --->    SCK
 
 D14     --->    MISO
@@ -44,16 +44,17 @@ GND     --->    GND
 D4      --->    CS
 ```
 <p align="center">
-    <img alt="DEDSEC-USB-LAYOUT" src="https://github.com/0xbitx/Dedsec-usb/blob/main/" style="max-width:100%;max-height:100%;" />
+    <img alt="DEDSEC-USB-LAYOUT" src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb-layout.png" style="max-width:100%;max-height:100%;" />
   </p>
-### flashing .ino to arduino pro micro
+
+### flashing dedsec-usb.ino to arduino pro micro
  
- 1. double click the ino file
+ 1. double click the dedsec-usb.ino file
  2. click on Tools > Board > Arduino Leonardo.
  3. Click on Tools again, choose Port and the port select Pro Micro.
  4. click the Upload button or press CTR + U to flash/program the Pro Micro. You should see “Done uploading.” at the bottom if it’s successful.
 
-  Format your microSD to FAT32 and move your script on the microSD
+ Format your microSD to FAT32 and move your script on the microSD
   
 ## dip switch code
 - 0000 - reverse shell 
