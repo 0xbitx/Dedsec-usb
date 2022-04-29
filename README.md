@@ -22,7 +22,7 @@ In light of that, if you put in a dedsec-usb into a computer, the dedsec-usb can
 This list is just the tip of the iceberg. The potential of these devices is really only limited by the creativity and technical acumen of their users.
 
 
-## requirements 
+## Requirements / Installation
 - [Arduino pro micro](https://lazada.com)
 - [MicroSD module](https://lazada.com)
 - [Dip switch](https://lazada.com)
@@ -54,9 +54,9 @@ D4      --->    CS
  3. Click on Tools again, choose Port and the port select Pro Micro.
  4. click the Upload button or press CTR + U to flash/program the Pro Micro. You should see “Done uploading.” at the bottom if it’s successful.
 
- Format your microSD to FAT32 and move your script on the microSD
+ Format your microSD to FAT32 and move your script on the microSD without folder just a txt file script
   
-## dip switch code
+## dip switch code and script function
 - 0000 - reverse shell 
 - 0001 - dump password
 - 0011 - dump sam file
