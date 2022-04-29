@@ -1,5 +1,5 @@
   <p align="center">
-    <img alt="DEDSEC-USB" src="https://github.com/0xbitx/dedsec_catcher/blob/main/img/logo.png" style="max-width:100%;max-height:100%;" />
+    <img alt="DEDSEC-USB" src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb.png" style="max-width:100%;max-height:100%;" />
   </p>
 
 
@@ -23,31 +23,38 @@ This list is just the tip of the iceberg. The potential of these devices is real
 
 
 ## requirements 
-- [arduino pro micro](https://lazada.com)
-- [microsd module](https://lazada.com)
+- [Arduino pro micro](https://lazada.com)
+- [MicroSD module](https://lazada.com)
+- [Dip switch](https://lazada.com)
 
-### arduino to microsd module connection
+### Arduino to MicroSD module connection
 ```
-Arduino ||| microSD module
+Arduino   |   microSD module  |  Dip Switch 
 
-VCC  --->   VCC
+VCC     --->    VCC               
+                                  
+D15     --->    SCK
 
-D15  --->   SCK
+D14     --->    MISO
 
-D14  --->   MISO
+D16     --->    MOSI
 
-D16  --->   MOSI
+GND     --->    GND
 
-GND  --->   GND
-
-D4   --->   CS
+D4      --->    CS
 ```
+<p align="center">
+    <img alt="DEDSEC-USB-LAYOUT" src="https://github.com/0xbitx/Dedsec-usb/blob/main/" style="max-width:100%;max-height:100%;" />
+  </p>
+### flashing .ino to arduino pro micro
+ 
+ 1. double click the ino file
+ 2. click on Tools > Board > Arduino Leonardo.
+ 3. Click on Tools again, choose Port and the port select Pro Micro.
+ 4. click the Upload button or press CTR + U to flash/program the Pro Micro. You should see “Done uploading.” at the bottom if it’s successful.
 
-
-
-
-
-
+  Format your microSD to FAT32 and move your script on the microSD
+  
 ## dip switch code
 - 0000 - reverse shell 
 - 0001 - dump password
