@@ -2,9 +2,11 @@
     <img alt="DEDSEC-USB" src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb.png" style="max-width:100%;max-height:100%;" />
   </p>
 
+<p align="center"><strong>DEDSEC-USB</strong>
+</p>
 
-# Dedsec-usb
 
+## DEDSEC-USB
 The dedsec-usb looks like any other USB flash drive, but when you insert the dedsec-usb, the computer perceives a keyboard, and it allows that "keyboard" to enter a host of preset keystrokes. Theoretically, this tool is for penetration testing. Security experts can use dedsec-usb to test the resiliency of their computers systems, But hackers can also use the dedsec-usb for keystroke injection attacks.
 
 ## Keystroke Injection Attacks
@@ -52,25 +54,25 @@ D4      --->    CS
  1. double click the dedsec-usb.ino file
  2. click on Tools > Board > Arduino Leonardo.
  3. Click on Tools again, choose Port and the port select Pro Micro.
- 4. click the Upload button or press CTR + U to flash/program the Pro Micro. You should see “Done uploading.” at the bottom if it’s successful.
+ 4. click the Upload button or press CTRL + U to flash the Pro Micro. You should see “Done uploading.” at the bottom if it’s successful.
 
  Format your microSD to FAT32 and move your script on the microSD without folder just a txt file script
   
 ## dip switch code and script function
-- 0000 - reverse shell 
-- 0001 - dump password
-- 0011 - dump sam file
-- 0111 - dns spoof
-- 1111 - remote desktop
-- 1000 - reverse shell using powershell
-- 1100 - disable firewall
-- 1110 - disable windows defender using powershell
-- 1010 - rickroll
-- 0101 - disable windows defender permanently
-- 1100 - run metasploit payload
-- 0011 - revershell using netcat
-- 1001 - 
-- 0110 - 
-- 1011 - 
-- 0111 -
+- 1111 - sticky trick | press shift key 5 times
+- 1110 - reverse shell
+- 1101 - dump sam file
+- 1100 - local dns spoof
+- 1011 - enable remote desktop
+- 1010 - reverse shell using powershell
+- 1001 - disable firewall
+- 1000 - disable windows defender using powershell
+- 0111 - rickroll
+- 0110 - disable windows defender permanently
+- 0101 - run metasploit payload
+- 0100 - revershell using netcat
+- 0011 - run a virus 
+- 0010 - add hidden user (user:dedsec password:dedsec1337)
+- 0001 - 
+- 0000 -
 
