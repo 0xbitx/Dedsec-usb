@@ -31,7 +31,7 @@ This list is just the tip of the iceberg. The potential of these devices is real
 
 ### Arduino to MicroSD module connection
 ```
-Arduino   |   microSD module  |  Dip switch
+Arduino   |   microSD module  |  Dip switch ( up - 0 | down - 1 ) 
 
 VCC     --->    VCC              4 up pins (ON DP)     --->  GND in arduino
                                  4 down pins (1 2 3 4) --->  6 7 8 9 pin in arduino 
