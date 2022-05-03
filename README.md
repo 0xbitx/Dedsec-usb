@@ -65,14 +65,13 @@ D4      --->    CS
 - 1100 - local dns spoof
 - 1011 - enable remote desktop
 - 1010 - reverse shell using powershell
-- 1001 - disable firewall
+- 1001 - disable windows firewall
 - 1000 - disable windows defender using powershell
 - 0111 - rickroll
-- 0110 - disable windows defender permanently
+- 0110 - open link on chrome
 - 0101 - run metasploit payload
 - 0100 - revershell using netcat
 - 0011 - run a virus 
 - 0010 - add hidden user (user:dedsec password:dedsec1337)
-- 0001 - 
-- 0000 -
-
+- 0001 - bluescreen of death (BOD)
+- 0000 - dump windows password
