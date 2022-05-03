@@ -25,9 +25,9 @@ This list is just the tip of the iceberg. The potential of these devices is real
 
 
 ## Requirements / Installation
-- [Arduino pro micro](https://lazada.com)
-- [MicroSD module](https://lazada.com)
-- [Dip switch](https://lazada.com)
+- [Arduino pro micro](https://lazada.com) available: lazada / shopee
+- [MicroSD module](https://lazada.com) available: lazada / shopee
+- [Dip switch](https://lazada.com) available: lazada / shopee
 
 ### Arduino to MicroSD module connection
 ```
