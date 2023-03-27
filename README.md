@@ -1,10 +1,8 @@
-  <p align="center">
-    <img alt="DEDSEC-USB" src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb.png" style="max-width:100%;max-height:100%;" />
+<h1 align="center"> DEDSEC USB </h1>
+
+<p align="center">
+    <img src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb.png" style="max-width:100%;max-height:100%;" />
   </p>
-
-<p align="center"><strong>DEDSEC-USB</strong>
-</p>
-
 
 ## DEDSEC-USB
 The dedsec-usb looks like any other USB flash drive, but when you insert the dedsec-usb, the computer perceives a keyboard, and it allows that "keyboard" to enter a host of preset keystrokes. Theoretically, this tool is for penetration testing. Security experts can use dedsec-usb to test the resiliency of their computers systems, But hackers can also use the dedsec-usb for keystroke injection attacks.
@@ -75,3 +73,8 @@ D4      --->    CS
 - 0010 - add hidden user (user:dedsec password:dedsec1337)
 - 0001 - bluescreen of death (BOD)
 - 0000 - dump windows password
+
+<h1 align="center"> DISCLAIMER </h1>
+
+<h4 align="center">I'm not responsible for anything you do with this program, so please only use it for good and educational purposes. </h4>
+
