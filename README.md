@@ -44,7 +44,7 @@ GND     --->    GND
 D4      --->    CS
 ```
 <p align="center">
-    <img alt="DEDSEC-USB-LAYOUT" src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb-layout.png" style="max-width:100%;max-height:100%;" />
+    <img alt="DEDSEC-USB-LAYOUT" src="https://github.com/0xbitx/Dedsec-usb/blob/main/layout.png" style="max-width:100%;max-height:100%;" />
   </p>
 
 ### flashing dedsec-usb.ino to arduino pro micro
