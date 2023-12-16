@@ -1,10 +1,9 @@
-<h1 align="center"> DEDSEC USB </h1>
 
 <p align="center">
-    <img src="https://github.com/0xbitx/Dedsec-usb/blob/main/dedsec-usb.png" style="max-width:100%;max-height:100%;" />
-  </p>
+<img src="https://cdn-icons-png.flaticon.com/512/4397/4397263.png", width="350", height="350">
+</p>
+<h1 align="center"> DEDSEC USB </h1>
 
-## DEDSEC-USB
 The dedsec-usb looks like any other USB flash drive, but when you insert the dedsec-usb, the computer perceives a keyboard, and it allows that "keyboard" to enter a host of preset keystrokes. Theoretically, this tool is for penetration testing. Security experts can use dedsec-usb to test the resiliency of their computers systems, But hackers can also use the dedsec-usb for keystroke injection attacks.
 
 ## Keystroke Injection Attacks
@@ -74,7 +73,15 @@ D4      --->    CS
 - 0001 - bluescreen of death (BOD)
 - 0000 - dump windows password
 
+## Support
+
+If you find my work helpful and want to support me, consider making a donation. Your contribution will help me continue working on open-source projects.
+
+**Bitcoin Address: `36ALguYpTgFF3RztL4h2uFb3cRMzQALAcm`**
+
+
 <h1 align="center"> DISCLAIMER </h1>
 
 <h4 align="center">I'm not responsible for anything you do with this program, so please only use it for good and educational purposes. </h4>
+
 
